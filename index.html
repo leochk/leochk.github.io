@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Léo CHECK personal webpage</title>
+  <title>Léo CHECK - Page personnelle</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -16,9 +16,9 @@
         <div class="flex justify-between items-center">
 
           <div class="flex items-center md:items-end md:flex-col md:border-b md:border-gray-400">
-            <h1 class="font-bold p-4">
+            <div class="p-4">
               <img src="img/logo.png" alt="stew" class="w-36 md:w-48">
-            </h1>
+            </div>
           </div>
 
           <div class="px-4 cursor-pointer md:hidden" id="burger">
@@ -84,12 +84,12 @@
     </div>
 
 
-    <main class="bg-gray-100 col-span-5 text-justify">
+    <div class="bg-gray-100 col-span-5 text-justify">
 
       <div class="text-gray-100 relative ">
-        <img class="h-screen object-cover" src="img/photo.jpg" alt="stew" class="object-cover h-screen ">
+        <img class="h-screen object-cover" src="img/photo.jpg" alt="stew">
         <div class="absolute inset-center text-center ">
-          <h2 class="text-gray-100 text-4xl md:text-6xl bold p-4">Léo CHECK</h2>
+          <h1 class="text-gray-100 text-4xl md:text-6xl bold p-4">Léo CHECK</h1>
           <span class="">
             Stagiaire Data Engineer à Société Générale <br>
             et illustrateur à ses temps perdus
@@ -111,9 +111,9 @@
 
       <div class="px-16">
 
-        <h1 class="titre" id="profil">
+        <h2 class="titre" id="profil">
           Mon profil !
-        </h1>
+        </h2>
 
         <div class="flex my-8 items-center flex-col md:flex-row">
           <div class="flex-shrink-0 overflow-hidden rounded-full bg-red-500 w-44 h-44 ">
@@ -169,7 +169,7 @@
 
 
               <div class="col-span-2  pt-4">
-                <span class="text-gray-500">
+                <div class="text-gray-500">
                   <div class="">
                     <span class="font-bold  text-primary">Poste actuel :</span>
                     <br>
@@ -178,7 +178,7 @@
                       du 1er mars 2021 au 31 août 2021.
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
             </div>
 
@@ -198,8 +198,8 @@
 
         <div class="my-8 flex items-center sm:justify-around flex-col sm:flex-row ">
           <div class="">
-            <a href="files/cv.pdf" download>
-              <button
+            <a href="files/cv.pdf" download="">
+              <div
                 class="btn w-56 inline-flex items-center bg-primary text-gray-100 hover:shadow-inner transform hover:scale-105 ease-out duration-300">
                 <span class="">Télécharger mon CV</span>
                 <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -207,44 +207,49 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
-              </button>
+              </div>
             </a>
           </div>
 
           <div class="py-8 sm:py-0">
             <a href="#contact">
-              <button
-                class="btn w-56 inline-flex items-center bg-primary text-gray-100 hover:shadow-inner transform hover:scale-105 ease-out duration-300">
+              <div class="btn w-56 inline-flex items-center bg-primary text-gray-100 hover:shadow-inner transform
+                hover:scale-105 ease-out duration-300">
                 <span>Me contacter</span>
                 <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-              </button>
+              </div>
             </a>
+
           </div>
 
 
         </div>
 
-        <h1 class="titre" id="parcours">
+        <h2 class="titre" id="parcours">
           Mon parcours !
-        </h1>
+        </h2>
 
-        <h1 class="titre" id="projets">
+        <h2 class="titre" id="projets">
           Quelques projets par ci...
-        </h1>
+        </h2>
 
-        <h1 class="titre" id="illustration">
+        <h2 class="titre" id="illustration">
           ... et quelques illustrations par là.
-        </h1>
+        </h2>
 
-        <h1 class="titre" id="contact">
+        <h2 class="titre" id="contact">
           Me contacter ? Facile !
-        </h1>
+        </h2>
         <br><br><br><br><br><br><br><br><br><br><br><br>
-    </main>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </div>
   </div>
 
   <script src="index.js"></script>
