@@ -8,3 +8,6 @@ burger.addEventListener('click', () => {
         menu.classList.add('hidden');
     }
 });
+
+var heightSlider = document.querySelector('#navbar').height
+console.log(heightSlider+" fdfd")
